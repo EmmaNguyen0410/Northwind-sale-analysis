@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  postgres_db:
+    container_name: postgres_db # the name of your container
+    image: postgres
+    restart: always
+    # a temporary file storage filesystem using RAM for storing files which facilitates IPC
+    # use /dev/shm instead of just stashing a temporary file under /tmp. 
+    # /dev/shm exists in RAM (so it’s fast), whereas /tmp resides on disk (so it’s relatively slow)
+    shm_size: 128mb
+    environment:
+      # create the specified user with superuser power
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
