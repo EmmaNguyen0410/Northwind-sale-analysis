@@ -36,7 +36,11 @@ Besides, in the future this project will implement following concepts:
 ```
 docker-compose up -d
 ```
-4. Connect to the database and run northwind.postgre.sql script to populate the data. 
+4. Connect to the database and run _northwind.postgre.sql_ and *alter_table.sql* scripts to populate the data. 
+
+## Tables
+
+![Figure 0](visuals/erd.png)
 
 ## Business question analysis 
 Each .sql file in /queries folder yields a corresponding .csv file that answers a business question.
