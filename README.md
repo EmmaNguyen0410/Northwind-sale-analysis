@@ -140,5 +140,9 @@ The rest of employees had moderate performance across all categories.
 
 ![Figure 19](visuals/1.20.png)
 
+11. For each product, months that regularly experienced a decline in sales 
+
+12. Months that regularly experienced a decline in sales.
+
 
 
