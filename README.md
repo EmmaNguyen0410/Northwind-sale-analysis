@@ -14,20 +14,18 @@ Use cases of following SQL concepts are demonstrated:
 - Joins: INNER JOIN, LEFT JOIN, SELF JOIN.
 - Subqueries.
 - Grouping: GROUP BY, HAVING.
-- Window functions: ROW_NUMBER, DENSE_RANK.
+- Window functions: ROW_NUMBER, DENSE_RANK, LEAD, LAG
 - CTEs
+- Procedure and Functions 
+- Transaction: BEGIN, COMMIT, ROLLBACK
 
 Besides, in the future this project will implement following concepts: 
-- Procedure and Functions 
 - PREPARE, EXECUTE, DEALLOCATE for SQL injections prevention and performance optimization. 
 - Indexing for speeding up queries.
 - Backup 
 - View
-- Transaction: BEGIN, COMMIT, ROLLBACK
 - Advanced joins: CROSS JOIN, FULL JOIN
 - Set operation: UNION, INTERSECT, EXCEPT
-- Window functions: LEAD, LAG
-
 
 ## Set up the database
 1. Install Docker [here](https://docs.docker.com/engine/install/).
@@ -143,6 +141,5 @@ The rest of employees had moderate performance across all categories.
 11. For each product, months that regularly experienced a decline in sales 
 
 12. Months that regularly experienced a decline in sales.
-
 
 
