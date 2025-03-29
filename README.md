@@ -21,11 +21,29 @@ Use cases of following SQL concepts are demonstrated:
 
 Besides, in the future this project will implement following concepts: 
 - PREPARE, EXECUTE, DEALLOCATE for SQL injections prevention and performance optimization. 
-- Indexing for speeding up queries.
+- Indexing for speeding up queries: order_date
 - Backup 
 - View
 - Advanced joins: CROSS JOIN, FULL JOIN
 - Set operation: UNION, INTERSECT, EXCEPT
+- CTE for recursive queries
+- Sharding 
+- Partition
+
+## Database setup
+
+
+## Database security 
+1. Role 
+2. View 
+
+## Optimization 
+1. Also, consider views when dealing with complex queries. Views being a physical object on database (but does not store data physically) and can be used on multiple queries, thus provide flexibility and centralized approach. 
+2. View could be indexed
+3. CTE instead of subqueries. 
+4. Range conditions so the database can use an index efficiently (order_date)
+
+
 
 ## Set up the database
 1. Install Docker [here](https://docs.docker.com/engine/install/).
