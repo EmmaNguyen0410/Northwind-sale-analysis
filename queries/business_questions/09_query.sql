@@ -15,9 +15,8 @@ With employee_sales as (
                      sum(unit_price * quantity * od.discount) / sum(unit_price * quantity) * 100
               ) :: decimal(10, 2) as total_discount_percentage
        from
-              order_details as od
-              inner join orders as o on od.order_id = o.order_id
-              inner join employees as e on o.employee_id = e.employee_id
+              orders_order_details as ood
+              inner join employees as e on ood.employee_id = e.employee_id
        group by
               e.employee_id
 )

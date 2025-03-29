@@ -11,9 +11,8 @@ with categorised_suppliers as (
             else 'Europe'
         end as supplier_region
     from
-        public.products as p
-        inner join public.suppliers as s on p.supplier_id = s.supplier_id
-        inner join public.categories as c on p.category_id = c.category_id
+        products_categories as pc
+        inner join public.suppliers as s on pc.supplier_id = s.supplier_id
 ),
 grouped_by_category_name_supplier_region as (
     select

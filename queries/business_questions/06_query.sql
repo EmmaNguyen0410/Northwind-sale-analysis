@@ -10,9 +10,8 @@ with order_details_enriched as (
             when od.unit_price > 50 then '4. Over $50'
         end as price_range
     from
-        public.categories as c
-        inner join public.products as p on c.category_id = p.category_id
-        inner join public.order_details as od on p.product_id = od.product_id
+        products_categories as pc
+        inner join public.order_details as od on pc.product_id = od.product_id
 )
 select
     category_name,

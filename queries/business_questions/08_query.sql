@@ -30,9 +30,8 @@ select
         when unit_price > sub.median_unit_price then 'Over Median'
     end as median_unit_price_position
 from
-    public.products as p
-    inner join public.categories as c on p.category_id = c.category_id
-    inner join category_prices on p.category_id = category_prices.category_id
+    products_categories as pc
+    inner join category_prices on pc.category_id = category_prices.category_id
 where 
     p.discontinued = 0
 order by 

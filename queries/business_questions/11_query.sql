@@ -5,10 +5,10 @@ with yearly_sales as (
         date_part(order_date) as sales_month,
         date_part(order_date) as sales_year, 
         sum(unit_price * quantity) as month_total_sales
-    from order_details
-    join orders using(order_id)
-    join products using(product_id)
-    group by product_id, product_name, sales_month, sales_year
+    from 
+        orders_order_details_products
+    group by 
+        product_id, product_name, sales_month, sales_year
 ), sales_trend as (
     select 
         product_id, 

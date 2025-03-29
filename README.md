@@ -18,12 +18,12 @@ Use cases of following SQL concepts are demonstrated:
 - CTEs
 - Procedure and Functions 
 - Transaction: BEGIN, COMMIT, ROLLBACK
+- Indexing for speeding up queries: order_date
+- View
 
 Besides, in the future this project will implement following concepts: 
 - PREPARE, EXECUTE, DEALLOCATE for SQL injections prevention and performance optimization. 
-- Indexing for speeding up queries: order_date
 - Backup 
-- View
 - Advanced joins: CROSS JOIN, FULL JOIN
 - Set operation: UNION, INTERSECT, EXCEPT
 - CTE for recursive queries

@@ -12,11 +12,10 @@ raw_table as (
         employee_full_name,
         (sum(quantity * od.unit_price *(1 - discount))) as total_sale_amount
     from
-        public.order_details as od
-        inner join public.products as p on p.product_id = od.product_id
-        inner join public.categories as c on c.category_id = p.category_id
-        inner join public.orders as o on o.order_id = od.order_id
+        orders_order_details as ood
+        inner join products_categories as pc on ood.product_id = pc.product_id
         inner join employees_with_full_name as e on e.employee_id = o.employee_id
+
     group by
         c.category_id,
         employee_full_name
