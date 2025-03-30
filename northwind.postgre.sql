@@ -163,7 +163,11 @@ CREATE TABLE orders (
     "ship_region" character varying(15),
     "ship_postal_code" character varying(10),
     "ship_country" character varying(15)
-);
+) PARTITION BY RANGE(order_date);
+
+CREATE TABLE orders_y1996 PARTITION OF orders for values from ('1996-01-01') to ('1997-01-01')
+CREATE TABLE orders_y1997 PARTITION OF orders for values from ('1997-01-01') to ('1998-01-01')
+CREATE TABLE orders_y1998 PARTITION OF orders for values from ('1998-01-01') to ('1999-01-01')
 
 
 ALTER TABLE public.orders OWNER TO postgres;

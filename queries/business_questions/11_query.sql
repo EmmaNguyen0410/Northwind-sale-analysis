@@ -29,4 +29,4 @@ select
     sales_month
 from sales_trend
 group by product_id, product_name, sales_month
-having sum(is_declining) >= 3;
+having sum(is_declining) >= 2;
