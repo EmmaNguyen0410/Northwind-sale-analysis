@@ -147,7 +147,7 @@ The rest of employees had moderate performance across all categories.
 
 ![Figure 19](visuals/1.20.png)
 
-11. Top products showing declining aales patterns in the same months year over year.
+11. Top products showing declining sales patterns in the same months year over year.
 ![Figure 21](visuals/1.21.png)
 
 12. Products with at least 3 consecutive months of declining sales.
