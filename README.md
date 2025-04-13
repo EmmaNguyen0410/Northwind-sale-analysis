@@ -26,7 +26,6 @@ Besides, in the future this project will implement following concepts:
 - Backup 
 - Advanced joins: CROSS JOIN, FULL JOIN
 - Set operation: UNION, INTERSECT, EXCEPT
-- CTE for recursive queries
 - Sharding 
 - Partition
 
@@ -52,7 +51,7 @@ Besides, in the future this project will implement following concepts:
 ```
 docker-compose up -d
 ```
-4. Connect to the database and run _northwind.postgre.sql_ and *alter_table.sql* scripts to populate the data. 
+4. Connect to the database and run _northwind.postgre.sql_ ->  *alter_table.sql* -> _views_ -> _indexes_ -> _functions_ -> _procedures_ scripts to populate the data. 
 
 ## Tables
 
@@ -150,6 +149,8 @@ The rest of employees had moderate performance across all categories.
 
 11. For each product, months that regularly experienced a decline in sales 
 
-12. Months that regularly experienced a decline in sales.
+12. Products with declining sales
+There are 74 products with at least 3 consecutive months of declining sales:
+
 
 

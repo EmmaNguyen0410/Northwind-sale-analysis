@@ -5,7 +5,7 @@ with orders_with_year_month as (
       from
             orders
       where
-            order_date between '1996-01-01' and '1997-12-31';
+            order_date between '1996-01-01' and '1997-12-31'
 ), grouped_by_year_month as (
       select 
             year_month,

@@ -3797,8 +3797,8 @@ ALTER TABLE ONLY order_details
 -- Name: pk_orders; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
 --
 
-ALTER TABLE ONLY orders
-    ADD CONSTRAINT pk_orders PRIMARY KEY ("order_id");
+ALTER TABLE orders
+    ADD CONSTRAINT pk_orders PRIMARY KEY ("order_id", "order_date");
 
 
 --

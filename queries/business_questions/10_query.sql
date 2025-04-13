@@ -7,17 +7,18 @@ with employees_with_full_name as (
 ),
 raw_table as (
     select
-        c.category_id,
+        category_id,
         category_name,
         employee_full_name,
-        (sum(quantity * od.unit_price *(1 - discount))) as total_sale_amount
+        (sum(quantity * ood.unit_price *(1 - discount))) as total_sale_amount
     from
         orders_order_details as ood
         inner join products_categories as pc on ood.product_id = pc.product_id
-        inner join employees_with_full_name as e on e.employee_id = o.employee_id
+        inner join employees_with_full_name as e on e.employee_id = ood.employee_id
 
     group by
-        c.category_id,
+        category_id,
+        category_name,
         employee_full_name
 ),
 employee_total_sale_all_categories as (

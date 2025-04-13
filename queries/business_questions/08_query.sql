@@ -20,20 +20,20 @@ select
     average_unit_price :: decimal(5, 2),
     median_unit_price :: decimal(5, 2),
     case
-        when unit_price < sub.average_unit_price then 'Below Average'
-        when unit_price = sub.average_unit_price then 'Average'
-        when unit_price > sub.average_unit_price then 'Over Average'
+        when unit_price < category_prices.average_unit_price then 'Below Average'
+        when unit_price = category_prices.average_unit_price then 'Average'
+        when unit_price > category_prices.average_unit_price then 'Over Average'
     end as average_unit_price_position,
     case
-        when unit_price < sub.median_unit_price then 'Below Median'
-        when unit_price = sub.median_unit_price then 'Median'
-        when unit_price > sub.median_unit_price then 'Over Median'
+        when unit_price < category_prices.median_unit_price then 'Below Median'
+        when unit_price = category_prices.median_unit_price then 'Median'
+        when unit_price > category_prices.median_unit_price then 'Over Median'
     end as median_unit_price_position
 from
     products_categories as pc
     inner join category_prices on pc.category_id = category_prices.category_id
 where 
-    p.discontinued = 0
+    pc.discontinued = 0
 order by 
     category_name,
     product_name

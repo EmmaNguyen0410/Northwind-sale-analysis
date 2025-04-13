@@ -1,26 +1,27 @@
-create function getStockStatus(int)  
-returns text   
-language plpgsql  
-as $$  
-declare  
-    stock int;  
-    status text;  
-begin  
-    -- Get stock quantity  
-    select unit_in_stock into stock from products where products.product_id = $1;  
+create function getStockStatus(p_product_id int)
+returns text
+language plpgsql
+as $$
+declare
+    stock int;
+    status text;
+begin
+    -- Get stock quantity
+    select unit_in_stock into stock
+    from products
+    where product_id = p_product_id;
 
-    -- Determine stock status  
-    IF stock IS NULL THEN  
-        status := 'Product Not Found';  
-    ELSIF stock = 0 THEN  
-        status := 'Out of Stock';  
-    ELSIF stock < 10 THEN  
-        status := 'Low Stock';  
-    ELSE  
-        status := 'In Stock';  
-    END IF;  
+    -- Determine stock status
+    if stock is null then
+        status := 'Product Not Found';
+    elsif stock = 0 then
+        status := 'Out of Stock';
+    elsif stock < 10 then
+        status := 'Low Stock';
+    else
+        status := 'In Stock';
+    end if;
 
-    RETURN status;  
-END;  
-$$;  
-
+    return status;
+end;
+$$;

@@ -8,7 +8,8 @@ select
     unit_in_stock, 
     unit_on_order, 
     reorder_level, 
-    unit_price
+    unit_price,
+    discontinued
 from
     public.categories 
     inner join public.products using(category_id)
