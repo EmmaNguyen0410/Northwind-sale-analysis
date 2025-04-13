@@ -127,17 +127,9 @@ Europe had the highest reorder level. Moreover, Beverages reorder level was rela
 Figure 10 - 15 illustrate products’ unit prices compared against category mean (red line) and median (green line). 
 Mean: Most of Daily Products products had their unit prices above category mean. On the contrary, other categories’ products had their unit prices below category mean.
 
-![Figure 10](visuals/1.10.png)
-![Figure 11](visuals/1.11.png)
-![Figure 12](visuals/1.12.png)
-![Figure 13](visuals/1.13.png)
-![Figure 14](visuals/1.14.png)
-![Figure 15](visuals/1.15.png)
-
 Median: In almost all categories, half of the products had their unit prices above median. 
 
-![Figure 16](visuals/1.16.png)
-![Figure 17](visuals/1.17.png)
+![Figure 10](visuals/1.10.png)
 
 9. Employee performance (KPIs)
 
