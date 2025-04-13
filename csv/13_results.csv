@@ -1,0 +1,106 @@
+employee_id,employee_name,product_id,product_name
+2,Andrew Fuller,37,Gravad lax
+2,Andrew Fuller,3,Aniseed Syrup
+2,Andrew Fuller,12,Queso Manchego La Pastora
+2,Andrew Fuller,73,Röd Kaviar
+2,Andrew Fuller,50,Valkoinen suklaa
+2,Andrew Fuller,14,Tofu
+2,Andrew Fuller,20,Sir Rodney's Marmalade
+2,Andrew Fuller,5,Chef Anton's Gumbo Mix
+2,Andrew Fuller,48,Chocolade
+9,Anne Dodsworth,62,Tarte au sucre
+9,Anne Dodsworth,28,Rössle Sauerkraut
+9,Anne Dodsworth,48,Chocolade
+9,Anne Dodsworth,7,Uncle Bob's Organic Dried Pears
+9,Anne Dodsworth,37,Gravad lax
+9,Anne Dodsworth,12,Queso Manchego La Pastora
+9,Anne Dodsworth,23,Tunnbröd
+9,Anne Dodsworth,53,Perth Pasties
+9,Anne Dodsworth,4,Chef Anton's Cajun Seasoning
+9,Anne Dodsworth,5,Chef Anton's Gumbo Mix
+9,Anne Dodsworth,51,Manjimup Dried Apples
+9,Anne Dodsworth,15,Genen Shouyu
+9,Anne Dodsworth,73,Röd Kaviar
+9,Anne Dodsworth,50,Valkoinen suklaa
+9,Anne Dodsworth,67,Laughing Lumberjack Lager
+9,Anne Dodsworth,27,Schoggi Schokolade
+9,Anne Dodsworth,56,Gnocchi di nonna Alice
+9,Anne Dodsworth,55,Pâté chinois
+9,Anne Dodsworth,68,Scottish Longbreads
+9,Anne Dodsworth,42,Singaporean Hokkien Fried Mee
+9,Anne Dodsworth,43,Ipoh Coffee
+9,Anne Dodsworth,57,Ravioli Angelo
+9,Anne Dodsworth,22,Gustaf's Knäckebröd
+9,Anne Dodsworth,58,Escargots de Bourgogne
+3,Janet Leverling,8,Northwoods Cranberry Sauce
+3,Janet Leverling,37,Gravad lax
+3,Janet Leverling,5,Chef Anton's Gumbo Mix
+8,Laura Callahan,45,Rogede sild
+8,Laura Callahan,38,Côte de Blaye
+8,Laura Callahan,15,Genen Shouyu
+8,Laura Callahan,48,Chocolade
+8,Laura Callahan,9,Mishi Kobe Niku
+8,Laura Callahan,6,Grandma's Boysenberry Spread
+8,Laura Callahan,66,Louisiana Hot Spiced Okra
+4,Margaret Peacock,32,Mascarpone Fabioli
+4,Margaret Peacock,9,Mishi Kobe Niku
+6,Michael Suyama,8,Northwoods Cranberry Sauce
+6,Michael Suyama,38,Côte de Blaye
+6,Michael Suyama,32,Mascarpone Fabioli
+6,Michael Suyama,37,Gravad lax
+6,Michael Suyama,18,Carnarvon Tigers
+6,Michael Suyama,17,Alice Mutton
+6,Michael Suyama,66,Louisiana Hot Spiced Okra
+6,Michael Suyama,27,Schoggi Schokolade
+6,Michael Suyama,25,NuNuCa Nuß-Nougat-Creme
+6,Michael Suyama,9,Mishi Kobe Niku
+6,Michael Suyama,43,Ipoh Coffee
+6,Michael Suyama,45,Rogede sild
+6,Michael Suyama,58,Escargots de Bourgogne
+6,Michael Suyama,22,Gustaf's Knäckebröd
+6,Michael Suyama,23,Tunnbröd
+6,Michael Suyama,6,Grandma's Boysenberry Spread
+6,Michael Suyama,42,Singaporean Hokkien Fried Mee
+6,Michael Suyama,67,Laughing Lumberjack Lager
+6,Michael Suyama,30,Nord-Ost Matjeshering
+6,Michael Suyama,68,Scottish Longbreads
+1,Nancy Davolio,34,Sasquatch Ale
+1,Nancy Davolio,67,Laughing Lumberjack Lager
+1,Nancy Davolio,9,Mishi Kobe Niku
+1,Nancy Davolio,37,Gravad lax
+1,Nancy Davolio,22,Gustaf's Knäckebröd
+7,Robert King,50,Valkoinen suklaa
+7,Robert King,63,Vegie-spread
+7,Robert King,74,Longlife Tofu
+7,Robert King,73,Röd Kaviar
+7,Robert King,14,Tofu
+7,Robert King,27,Schoggi Schokolade
+7,Robert King,15,Genen Shouyu
+7,Robert King,6,Grandma's Boysenberry Spread
+7,Robert King,44,Gula Malacca
+7,Robert King,55,Pâté chinois
+5,Steven Buchanan,50,Valkoinen suklaa
+5,Steven Buchanan,6,Grandma's Boysenberry Spread
+5,Steven Buchanan,5,Chef Anton's Gumbo Mix
+5,Steven Buchanan,49,Maxilaku
+5,Steven Buchanan,18,Carnarvon Tigers
+5,Steven Buchanan,12,Queso Manchego La Pastora
+5,Steven Buchanan,70,Outback Lager
+5,Steven Buchanan,66,Louisiana Hot Spiced Okra
+5,Steven Buchanan,43,Ipoh Coffee
+5,Steven Buchanan,61,Sirop d'érable
+5,Steven Buchanan,3,Aniseed Syrup
+5,Steven Buchanan,13,Konbu
+5,Steven Buchanan,9,Mishi Kobe Niku
+5,Steven Buchanan,27,Schoggi Schokolade
+5,Steven Buchanan,15,Genen Shouyu
+5,Steven Buchanan,26,Gumbär Gummibärchen
+5,Steven Buchanan,8,Northwoods Cranberry Sauce
+5,Steven Buchanan,73,Röd Kaviar
+5,Steven Buchanan,48,Chocolade
+5,Steven Buchanan,29,Thüringer Rostbratwurst
+5,Steven Buchanan,46,Spegesild
+5,Steven Buchanan,32,Mascarpone Fabioli
+5,Steven Buchanan,67,Laughing Lumberjack Lager
+5,Steven Buchanan,52,Filo Mix
+5,Steven Buchanan,37,Gravad lax

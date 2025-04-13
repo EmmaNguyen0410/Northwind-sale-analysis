@@ -11,7 +11,7 @@ Use cases of following SQL concepts are demonstrated:
 - Data integrity and constraints: PRIMARY KEY, FOREIGN KEY. 
 - Basic aggregate functions: COUNT, SUM, AVG, MIN, MAX
 - Sorting and limiting: ORDER BY, LIMIT
-- Joins: INNER JOIN, LEFT JOIN, SELF JOIN.
+- Joins: INNER JOIN, LEFT JOIN, SELF JOIN, CROSS JOIN, FULL JOIN
 - Subqueries.
 - Grouping: GROUP BY, HAVING.
 - Window functions: ROW_NUMBER, DENSE_RANK, LEAD, LAG
@@ -20,17 +20,9 @@ Use cases of following SQL concepts are demonstrated:
 - Transaction: BEGIN, COMMIT, ROLLBACK
 - Indexing for speeding up queries: order_date
 - View
-
-Besides, in the future this project will implement following concepts: 
-- PREPARE, EXECUTE, DEALLOCATE for SQL injections prevention and performance optimization. 
-- Backup 
-- Advanced joins: CROSS JOIN, FULL JOIN
 - Set operation: UNION, INTERSECT, EXCEPT
-- Sharding 
 - Partition
-
-## Database setup
-
+- Sharding 
 
 ## Database security 
 1. Role 
@@ -41,8 +33,6 @@ Besides, in the future this project will implement following concepts:
 2. View could be indexed
 3. CTE instead of subqueries. 
 4. Range conditions so the database can use an index efficiently (order_date)
-
-
 
 ## Set up the database
 1. Install Docker [here](https://docs.docker.com/engine/install/).
@@ -153,4 +143,13 @@ The rest of employees had moderate performance across all categories.
 12. Products with at least 3 consecutive months of declining sales.
 ![Figure 22](visuals/1.22.png)
 
+13. List of employees who might need training on which products they haven't yet handled in any orders.
 
+14. Markets that have demand but no supply, or vice versa.
+This is a list of: 
+- Customers who don't have any suppliers in the same country.
+- Suppliers who don't have any customers in the same country.
+
+15. A unified list of all contact persons from customers and suppliers.
+
+16. Which customers are not also suppliers ?
