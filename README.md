@@ -147,10 +147,10 @@ The rest of employees had moderate performance across all categories.
 
 ![Figure 19](visuals/1.20.png)
 
-11. For each product, months that regularly experienced a decline in sales 
+11. Top products showing declining aales patterns in the same months year over year.
+![Figure 21](visuals/1.21.png)
 
-12. Products with declining sales
-There are 74 products with at least 3 consecutive months of declining sales:
-
+12. Products with at least 3 consecutive months of declining sales.
+![Figure 22](visuals/1.22.png)
 
 

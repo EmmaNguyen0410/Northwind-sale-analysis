@@ -28,11 +28,22 @@ with yearly_sales as (
             then 1 else 0
         end as is_declining
     from sales_trend_base
+), product_declining_sale_month as (
+    select
+        product_id,
+        product_name,
+        sales_month,
+        sum(is_declining) as sum_declining
+    from sales_trend
+    group by product_id, product_name, sales_month
+    having sum(is_declining) >= 2
 )
 select
     product_id,
     product_name,
-    sales_month
-from sales_trend
-group by product_id, product_name, sales_month
-having sum(is_declining) >= 2;
+    count(sales_month) as number_of_declining_sale_month
+from product_declining_sale_month
+group by product_id, product_name
+having count(sales_month) > 2;
+
+
